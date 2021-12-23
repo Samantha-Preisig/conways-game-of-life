@@ -1,4 +1,4 @@
-Conway's Game of Life consists of a two-dimension grid of cells. Each cell is either alive or dead with eight neighbours Each neighbouring cell is either horizontal, vertical, or diagonally adjacent.
+Conway's Game of Life consists of a two-dimension grid of cells. Each cell is either alive or dead with eight neighbours. Each neighbouring cell is either horizontal, vertical, or diagonally adjacent.
 
 At each step in time (or tick/generation), the following transitions occur:
   1. Any live cell with fewer than two live neighbours dies, as if by underpopulation.
