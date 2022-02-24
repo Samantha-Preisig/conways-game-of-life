@@ -26,16 +26,16 @@ int main(int argc, char *argv[]){
 
   /*Command-line error checking*/
   if(argc < 2 || argc > 3){
-    printf ("Usage: ./cgol filename.seed time-interval\n");
-    return(1);
-  }else if (argc == 2){
+    printf("Usage: ./cgol filename.seed time-interval\n");
+    return 1;
+  }else if(argc == 2){
     strcpy(filename, argv[1]);
     reqTicks = 50;
   }else{
     strcpy(filename, argv[1]);
     reqTicks = atoi(argv[2]);
     if(reqTicks < 0){
-      return(1);
+      return 1;
     }
   }
   totalTicks = reqTicks;
