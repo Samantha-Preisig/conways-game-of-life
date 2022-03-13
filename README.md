@@ -16,12 +16,12 @@ Reference: https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
   4. The program will display the starting generation (generation 0) and will wait for you to initiate the game. (Enter Y/y to start, enter N/n to quit).
   5. If the seed makes it to 50 generations without all cells dying, the user will be asked if they want to continue for another 50 generations. (Enter Y/y to continue, enter N/n to quit).
 
-- Example command-line arguments:
+#### Example command-line arguments:
 ```
-`./cgol diehard20X40.seed`
+./cgol diehard20X40.seed
 ```
 - runs cgol.c using the seed "diehard20X40.seed" to 50 generations (unless diehard20x40.seed dies out before reaching the 50th generation).
 ```
-`./cgol diehard20X40.seed' 20`
+./cgol diehard20X40.seed' 20
 ```
 - will step through the first 20 generations in "diehard20X40.seed"
