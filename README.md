@@ -21,7 +21,7 @@ Reference: https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
 ```
 ./cgol diehard20X40.seed
 ```
-- Will step through the first 20 generations in "diehard20X40.seed"
+- Will step through the first 20 generations in "diehard20X40.seed":
 ```
 ./cgol diehard20X40.seed' 20
 ```
