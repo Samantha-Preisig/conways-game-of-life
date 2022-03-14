@@ -25,3 +25,6 @@ Reference: https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
 ```
 ./cgol diehard20X40.seed' 20
 ```
+
+#### Disclaimer
+This was a project I did during my first semester and therefore is extremely inefficient and monolithic. This does not represent my current work; I have adopted best practices, modularity, and more effective and efficient problem solving. I have added this project to simply display my growth as a programmer.
