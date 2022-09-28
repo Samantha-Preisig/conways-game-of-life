@@ -1,13 +1,11 @@
-all: cgol
+CC = gcc
+CFLAGS = -Wpedantic -std=gnu99
 
-cgol.o: cgol.c
-	gcc -ansi -Wall -c cgol.c
+serial_cgol: serial_cgol.o
+	$(CC) $(CFLAGS) -o serial_cgol serial_cgol.o
 
-flush.o: flush.c
-	gcc -ansi -Wall -c flush.c
-
-cgol: cgol.o flush.o
-	gcc -ansi -Wall -o cgol cgol.o flush.o
+serial_cgol.o: serial_cgol.c
+	$(CC) $(CFLAGS) -c serial_cgol.c
 
 clean:
-	rm -i *.o cgol
+    rm -i *.o serial_cgol
