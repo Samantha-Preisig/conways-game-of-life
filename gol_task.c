@@ -520,7 +520,7 @@ int main(int argc, char *argv[]){
             d_flag = 1;
         }
     }else{
-        fprintf(stdout, "Usage: ./gol_task gridSize nIterations -d\n");
+        fprintf(stdout, "Usage: ./gol_task [grid_size] [num_iterations] [-d]\n");
     }
 
     live_count = (int*)malloc(grid_size*grid_size*sizeof(int*));

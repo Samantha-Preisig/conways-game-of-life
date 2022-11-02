@@ -170,7 +170,7 @@ int main(int argc, char *argv[]){
             d_flag = 1;
         }
     }else{
-        fprintf(stdout, "Usage: ./gol_data nThreads gridSize nIterations -d\n");
+        fprintf(stdout, "Usage: ./gol_data [num_threads] [grid_size] [num_iterations] [-d]\n");
     }
     pthread_barrier_init(&barrier, NULL, total_threads);
 
