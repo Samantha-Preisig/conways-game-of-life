@@ -35,11 +35,11 @@ All threads run simultaneously with each thread manipulating shared data. Theref
 ```
 ./gol_serial 10 5 -d
 ```
-- The following will step through (and display) the first 200 generations in a randomly generated 100x100 grid using 4 threads
+- The following will step through (and display) the first 200 generations in a randomly generated 100x100 grid using 4 threads:
 ```
 ./gol_data 4 100 200
 ```
-- The following will step through (but not display) the first 100 generations in a randomly generated 50x50 grid
+- The following will step through (but not display) the first 100 generations in a randomly generated 50x50 grid:
 ```
 ./gol_task 50 100
 ```
